@@ -1,7 +1,7 @@
 <!-- Splash Screen -->
 <div id="splash-screen">
     <div class="splash-content">
-        <div class="logo-f">SIGE - TURMAS</div>
+        <div class="logo-f">M</div>
         
         <div class="loading-container">
             <div class="dot-base"></div>
@@ -64,7 +64,9 @@ p {
     margin-top: 10px;
 }
 </style>
+
 <script>
+// Aguarda 3 segundos (tempo da animação + pequena folga) e redireciona
 setTimeout(() => {
     window.location.href = 'login.php';
 }, 3000);
